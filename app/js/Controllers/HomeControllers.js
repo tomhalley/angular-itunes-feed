@@ -24,4 +24,6 @@ angular.module("BCSG.Controllers")
                     });
             }
         };
+
+        $scope.methods.getAuthorTitles($scope.data.titles[0]);
     });
