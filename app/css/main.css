@@ -1,0 +1,31 @@
+body {
+    padding-top: 50px;
+}
+.itunes-feed {
+    padding: 40px 15px;
+}
+
+.titles {
+    border-bottom: 1px solid #ddd;
+    margin-top: 40px;
+}
+
+.title {
+    display: block;
+    border: 1px solid #ddd;
+    border-bottom: none;
+    padding: 15px 15px 10px 10px;
+}
+
+.title h2 {
+    margin-top: 10px;
+    padding: 0;
+}
+
+.title img {
+    height: 60px;
+}
+
+ul.nav-tabs li a {
+    cursor:pointer;
+}

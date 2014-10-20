@@ -1,0 +1,25 @@
+<div class="container itunes-feed">
+    <tabset>
+        <tab ng-repeat="author in data.authors" heading="{{author}}" select="methods.getAuthorTitles(author)">
+            <ul class="titles">
+                <li class="title row" ng-repeat="title in data.titles">
+                    <div class="col-xs-1">
+                        <a href="{{ title.trackViewUrl}}">
+                            <img src="{{ title.artworkUrl100 }}" />
+                        </a>
+                    </div>
+                    <div class="col-xs-10">
+                        <a href="{{ title.trackViewUrl}}">
+                            <h2>{{title.trackName}}</h2>
+                        </a>
+                    </div>
+                    <div class="col-xs-1">
+                        <h3>
+                            {{ title.formattedPrice }}
+                        </h3>
+                    </div>
+                </li>
+            </ul>
+        </tab>
+    </tabset>
+</div>
