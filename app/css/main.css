@@ -1,10 +1,14 @@
 @media (max-width: 480px) {
     h2 {
         font-size: 1.5em;
+        padding: 0;
+        margin: 0;
     }
 
     h3 {
         font-size: 1em;
+        padding: 3px 0 0;
+        margin: 0;
     }
 
     .nav-tabs > li {
@@ -19,6 +23,18 @@
 
     .itunes-feed {
         padding: 0;
+    }
+}
+
+@media (max-width: 392px) {
+    h2{
+        font-size: 1em;
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .name, .price {
+        padding-left: 0;
     }
 }
 
